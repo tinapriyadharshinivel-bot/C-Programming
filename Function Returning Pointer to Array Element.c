@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h>
 
 int*getElement(int arr[], int index){
     return&arr[index];
