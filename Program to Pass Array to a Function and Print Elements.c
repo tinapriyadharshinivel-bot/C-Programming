@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 void display(int arr[],int n){
     int i;
-    printf("array elements:");
+    printf("Array elements:");
     for(i=0;i<n;i++)
         printf("%d",arr[i]);
 }
